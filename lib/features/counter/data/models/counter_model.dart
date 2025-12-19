@@ -6,7 +6,7 @@ part 'counter_model.freezed.dart';
 part 'counter_model.g.dart';
 
 @freezed
-class CounterModel with _$CounterModel {
+sealed class CounterModel with _$CounterModel {
   const factory CounterModel({required int value}) = _CounterModel;
 
   factory CounterModel.fromJson(Map<String, dynamic> json) =>

@@ -6,6 +6,7 @@ import '../../../../core/usecase/usecase.dart';
 import '../../domain/entities/counter.dart';
 import '../../domain/repositories/counter_repository.dart';
 import '../datasources/counter_local_data_source.dart';
+import '../models/counter_model.dart';
 
 @LazySingleton(as: CounterRepository)
 class CounterRepositoryImpl implements CounterRepository {

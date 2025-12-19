@@ -2,7 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../../app/router/app_router.gr.dart';
+import '../../../../app/router/app_router.dart';
 import '../../../../core/di/injection.dart';
 import '../bloc/counter_bloc.dart';
 import '../bloc/counter_event.dart';
