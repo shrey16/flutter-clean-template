@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter: Debug (emulator-5554)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "preLaunchTask": "Flutter: Pub Get"
+    },
+    {
+      "name": "Flutter: Profile (emulator-5554)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "flutterMode": "profile",
+      "preLaunchTask": "Flutter: Pub Get"
+    },
+    {
+      "name": "Flutter: Debug (pick device)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "preLaunchTask": "Flutter: Pub Get"
+    }
+  ]
+}
